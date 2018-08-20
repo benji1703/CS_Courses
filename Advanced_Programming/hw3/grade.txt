@@ -1,0 +1,45 @@
+--- 
+general: 
+  comments: ~
+grade: 75
+q1: 
+  comments: Failed test (-5)
+  files: 
+    - files/Streams.java
+  points: 10
+q2: 
+  comments: ~
+  files: 
+    - files/Streams.java
+  points: 10
+q3: 
+  comments: Failed test (-5)
+  files: 
+    - files/Streams.java
+  points: 10
+q4: 
+  comments: Failed test (-5)
+  files: 
+    - files/Streams.java
+  points: 10
+q5: 
+  comments: ~
+  files: 
+    - files/RandomAccess.java
+  points: 10
+q6: 
+  comments: Failed test (-5)
+  files: 
+    - files/RandomAccess.java
+  points: 10
+q7: 
+  comments: Failed test (-5)
+  files: 
+    - files/RandomAccess.java
+  points: 5
+q8: 
+  comments: ~
+  files: 
+    - dict/InMemoryDictionary.java
+  points: 35
+repo: ~

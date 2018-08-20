@@ -1,0 +1,22 @@
+Ex 6 Feedback after checking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Grade: 85 / 100
+
+Grader's comments:
+==================
+
+-2 : Problem 1 - in "addStrTo***" in case of "newListNode" failed, you should free the memory you already allocated for the string.
+
+-2 : Problem 1 - in "addStrTo***" you should check whether "newListNode" does not return NULL.
+
+-4 : Problem 1 - "freeStrList" does not work well. should free list and data, and strList.
+
+-4 : Problem 1 - in "addStrToSortedList" should free the memory allocated by "listToArray" (and check whether does not return NULL)
+
+-3 : Problem 1 - in "printStrList" , "strcmp(toPrint, toPrintCheck)" but "toPrintCheck" is uninitialized!
+
+Good Luck in the exam! :)
+
+
+----------

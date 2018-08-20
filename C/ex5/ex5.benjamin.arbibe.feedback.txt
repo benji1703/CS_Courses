@@ -1,0 +1,22 @@
+Ex 5 Feedback after checking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Grade: 91 / 100
+
+Grader's comments:
+==================
+
+-1 : Problem 1 - "strListLen" Should return -1 on NULL input
+
+-1 : Problem 1 - "strListFromWords" Should return -1 on NULL input
+
+-1 : Problem 2 - in main, should check whether "malloc" does not return NULL.
+
+-3 : Problem 2 - in main, should freeing all dynamically allocated memory and closing file, also if program exits on error.
+
+-5 : Problem 2 - in main, memory leaks - should freeing all dynamically allocated memory (including allocated by createStrList) and closing file
+
++2 : Documentation bonus
+
+
+----------

@@ -1,0 +1,25 @@
+--- 
+general: 
+  comments: ~
+grade: 95
+q1: 
+  comments: good!
+  files: 
+    - src/net/HelloServer.java
+  points: 30
+q2: 
+  comments: See comments in code
+  files: 
+    - src/net/HelloClient.java
+  points: 20
+q3: 
+  comments: See comments in code
+  files: 
+    - src/net/ThreadedHelloServer.java
+  points: 25
+q4: 
+  comments: See comments in code
+  files: 
+    - src/net/FileServer.java
+  points: 25
+repo: ~

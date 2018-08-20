@@ -1,0 +1,33 @@
+--- 
+general: 
+  comments: 
+    - good job!
+grade: 100
+q1: 
+  comments: ~
+  points: 10
+q2: 
+  comments: ~
+  files: ~
+  points: 10
+q3: 
+  comments: ~
+  files: 
+    - src/ConsoleRunner.java
+    - src/NumberGuessingGame.java
+  points: 20
+q4: 
+  comments: ~
+  points: 20
+q5: 
+  comments: ~
+  points: 20
+q6: 
+  comments: ~
+  points: 20
+q7: 
+  comments: ~
+  files: 
+    - answer.txt
+  points: 10
+repo: ~

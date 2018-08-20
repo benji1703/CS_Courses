@@ -1,0 +1,14 @@
+Ex 2 Feedback after checking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Grade: 94 / 100
+
+Grader's comments:
+==================
+
+
+-4 : Problem 2 - Wrong output - because you don't filter words as a sequence of letters in lower or upper case ([:alpha:]) flanked by white spaces or punctuation marks correctly (for example, how does your code treat the following : "abc123edf", "ijk321", "123ghi", etc.? [hint - they aren't words, and neither are part of them])
+
+-2 : Problem 3.1 - Should print all subdirectories directly under that directory *with read access for all users*
+
+----------

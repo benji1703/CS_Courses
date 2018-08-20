@@ -1,0 +1,9 @@
+data/:
+total 16
+-rw-r--r--  1 benjamin.arbibe students 414 Apr  4 14:16 datafile1
+-rw-r--r--  1 benjamin.arbibe students 143 Apr  4 14:16 datafile2.txt
+
+scripts/:
+total 16
+-rwxr-xr--  1 benjamin.arbibe students 120 Apr  4 14:16 sum_data
+-rwxr-xr--  1 benjamin.arbibe students  77 Apr  4 14:16 welcome

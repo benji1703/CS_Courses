@@ -1,0 +1,7 @@
+# use glob syntax.
+syntax: glob
+
+# ignore all untracked .class files
+*.class
+*.classpath
+*.project

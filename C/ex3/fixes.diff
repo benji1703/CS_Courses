@@ -1,0 +1,20 @@
+1c1 1:17: stdio: No such file or directory ; 15: warning: implicit declaration of function `printf' ; 18: warning: implicit declaration of function `scan'
+< #include <stdio>
+---
+> #include <stdio.h>
+12c12 12: warning: return type defaults to `int'
+< main() {
+---
+> int main() {
+18c18 18: warning: implicit declaration of function `scan'
+<    scan("%d %c %d", n1, op, n2);
+---
+>    scanf("%d %c %d", &n1, &op, &n2);
+29c29 29: warning: too few arguments for format
+<    printf("Your operation is: %d %c %d = ",n1+op+n2);
+---
+>    printf("Your operation is: %d %c %d = ",n1,op,n2);
+35c35 35: error: `retrun' undeclared (first use in this function)
+<    retrun;
+---
+>    return 0;

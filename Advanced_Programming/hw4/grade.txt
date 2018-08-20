@@ -1,0 +1,24 @@
+--- 
+general: 
+  comments: ~
+grade: 100
+q1: 
+  comments: ~
+  files: 
+    - src/hangman/GuessManagerContractTest.java
+    - src/hangman/GuessManagerTest.java
+    - src/hangman/GuessManager.java
+    - src/hangman/Main.java
+  points: 50
+q2: 
+  comments: ~
+  files: 
+    - src/hangman/AsciiPictureTest.java
+    - src/hangman/AsciiPicture.java
+  points: 40
+q3: 
+  comments: ~
+  files: 
+    - src/hangman/TestSuite.java
+  points: 10
+repo: ~

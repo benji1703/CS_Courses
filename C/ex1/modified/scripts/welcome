@@ -1,0 +1,4 @@
+#!/bin/bash
+
+name=`echo $USER | tr "." "\t" | cut -f1`
+echo "Welcome, $USER"

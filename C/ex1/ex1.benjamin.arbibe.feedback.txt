@@ -1,0 +1,13 @@
+Ex 1 Feedback after checking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Grade: 98 / 100
+
+Grader's comments:
+==================
+
+
+-2 : Wrong item (11) - You should change the permissions of "scripts" directory itself in addition to all files in "scripts".
++0 : GOOD JOB! Keep it up :)
+
+----------

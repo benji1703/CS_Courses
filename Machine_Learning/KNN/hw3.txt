@@ -1,0 +1,78 @@
+﻿----------------------------
+Results for original dataset: 
+----------------------------
+Cross validation error with K = 4, lp = 1 majority function = weighted for auto_price data is: 1283.4313553864197
+----------------------------
+Results for scaled dataset: 
+----------------------------
+Cross validation error with K = 6, lp = 1 majority function = weighted for auto_price data is: 1411.5276909338236
+----------------------------
+Results for 3 folds
+----------------------------
+Cross validation error of Efficient knn on auto_price dataset is 1433.3075974723045 and the average elapsed time is: 5086756
+The total elapsed time is: 15260269
+Cross validation error of Regular knn on auto_price dataset is 1433.8020390807844 and the average elapsed time is: 3873849
+The total elapsed time is: 11621549
+----------------------------
+Results for 5 folds
+----------------------------
+Cross validation error of Efficient knn on auto_price dataset is 1404.6558047452727 and the average elapsed time is: 2459822
+The total elapsed time is: 12299113
+Cross validation error of Regular knn on auto_price dataset is 1404.6558047452727 and the average elapsed time is: 2800784
+The total elapsed time is: 14003923
+----------------------------
+Results for 10 folds
+----------------------------
+Cross validation error of Efficient knn on auto_price dataset is 1411.5276909338236 and the average elapsed time is: 1165586
+The total elapsed time is: 11655868
+Cross validation error of Regular knn on auto_price dataset is 1411.5276909338236 and the average elapsed time is: 1549308
+The total elapsed time is: 15493080
+----------------------------
+Results for 50 folds
+----------------------------
+Cross validation error of Efficient knn on auto_price dataset is 1426.767745506445 and the average elapsed time is: 240556
+The total elapsed time is: 12027809
+Cross validation error of Regular knn on auto_price dataset is 1426.767745506445 and the average elapsed time is: 332678
+The total elapsed time is: 16633948
+----------------------------
+Results for 159 folds
+----------------------------
+Cross validation error of Efficient knn on auto_price dataset is 1410.7761346256796 and the average elapsed time is: 76043
+The total elapsed time is: 12090881
+Cross validation error of Regular knn on auto_price dataset is 1410.7761346256796 and the average elapsed time is: 86517
+The total elapsed time is: 13756271
+
+----------------------------
+----------------------------
+
+Answer to First Question
+
+We expect that there will be a positive effect when normalizing the data in the KNN process because, as we have seen in Lesson and Practice, 
+most algorithm calculate the distance between two points according to distance. Therefore, if one of the attributes has a wide range of values, 
+then the distance will be determined by this particular feature. 
+
+Therefore, the range of all attributes should be normalized so that each of the features will contribute proportionally to the final distance.
+ 
+
+In general, algorithms that exploit distances between sample data such as kNN are sensitive to transformations.
+Since decision tree does not use the distance to classify, then normalization will not improve the algorithm.
+
+----------------------------
+----------------------------
+
+Answer to Second Question
+
+When using Forward - you will insert training set point, one by one, but keep only those that are not classified correctly.
+When using Backward - you will accept all points in the training set and then go through the points and 
+remove those that are correctly classified by their KNN neighboor.
+
+In this particular set of Data - whe want to predict the price of a car. 
+Since the prediction of the price is almost never precise (we will have some error to the predicted price), 
+therefore we will not remove (or add) any Instance.
+Since then, in this particular DataSet - this kind of enhancement will not provide us improvement.
+
+BUT, if we are now making a small adjustment to the data and algorithm, we can define an acceptable error and make the data Discrete.
+If the data is Discrete, there is a possibilty to use this enhancement, and define using a given error if this is
+classified correctly. So the classification can be to discrete group, and not to a continuous data set. So, using this kind of adjustment,
+this can provide us improvement.
+

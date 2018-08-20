@@ -1,0 +1,20 @@
+Ex 4 Feedback after checking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Grade: 91 / 100
+
+Grader's comments:
+==================
+
+
+-3 : Problem 1 - Should print messages/errors in the exact format as in the examples.
+
+-0 : Problem 1 - the function "is_prime" should return 0 if the number is not prime so should return 0 if number is <=1. (for example, 1,0,-5,..).
+
+-1 : Problem 3 - Should print messages/errors in the exact format as in the examples. ("->")
+
+-2 : Problem 3 - "fill_nums" should not print anything, prints should be in main.
+
+-3 : Problem 4 - Should print messages/errors in the exact format as in the examples.
+
+----------

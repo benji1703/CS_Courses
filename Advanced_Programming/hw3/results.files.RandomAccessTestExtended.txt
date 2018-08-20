@@ -1,0 +1,9 @@
+You failed: 2 tests. 
+You failed the following tests: 
+testSortTriBytesExtended(files.RandomAccessTestExtended)
+Random sort for file of length 258 failed: arrays first differed at element [3]; expected:<0> but was:<1>
+--------------------------------------
+testSortTriBytesQuickExtended(files.RandomAccessTestExtended)
+test timed out after 20000 milliseconds
+--------------------------------------
+

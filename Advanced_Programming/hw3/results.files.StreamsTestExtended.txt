@@ -1,0 +1,12 @@
+You failed: 3 tests. 
+You failed the following tests: 
+testGetQuotedExtended(files.StreamsTestExtended)
+Failed random test with length 189 and 0 quotes expected:<null> but was:<[]>
+--------------------------------------
+testFilterOutExtended(files.StreamsTestExtended)
+Failed random test with length 51 and 13 bad bytes (bad byte was -10): array lengths differed, expected.length=38 actual.length=51
+--------------------------------------
+testReadNumberExtended(files.StreamsTestExtended)
+Failed random test with length 189 expected:<202953117742> but was:<-4>
+--------------------------------------
+

@@ -1,0 +1,45 @@
+--- 
+general: 
+  comments: ~
+grade: 92
+q1: 
+  comments: (-2) - when using byteReverse(1011101100011010110101010111001100011001101110001001110011011000) the correct result should be [1101100010011100101110000001100101110011110101010001101010111011], not [1111111111111111111111111111111101110011110101010001101010111011].
+  files: 
+    - Bits.java
+  points: 12
+q2: 
+  comments: ~
+  files: 
+    - Bits.java
+  points: 12
+q3: 
+  comments: (-2) - when using interleave(1010101001011001111000111100101 ,10101000101010111000010111011101) the correct result should be [110011001100010010011001110010111101010000100111111100101110011], not [1110011001100010010011001110010111101010000100111111100101110011].
+  files: 
+    - Bits.java
+  points: 12
+q4: 
+  comments: ~
+  files: 
+    - Bits.java
+  points: 13
+q5: 
+  comments: ~
+  files: 
+    - Bits.java
+  points: 12
+q6: 
+  comments: (-2) when using convertFromBase([3, 2, 0, 2, 3, 3, 2, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 3, 2, 0, 2, 2],4), the correct result should be [178979886083979], not [8925067].
+  files: 
+    - src/Bases.java
+  points: 13
+q7: 
+  comments: (-2) when using convertToBase(8314386841965440907,4,[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), the correct result should be [[3, 2, 0, 2, 3, 3, 2, 0, 0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 3, 2, 0, 2, 2]], not [[3, 2, 0, 2, -1, -1, 2, 0, 0, -2, 0, -2, 0, 0, 0, 0, 0, 2, 0, 3, 2, 0, 2, 2]].
+  files: 
+    - src/Bases.java
+  points: 13
+q8: 
+  comments: ~
+  files: 
+    - src/Bases.java
+  points: 13
+repo: ~
